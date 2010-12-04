@@ -1,0 +1,14 @@
+= rake-gem-ghost
+
+Help gem developers to test created gems — creates symlink from installed gem to current folder.
+
+== Example
+
+    require 'rake/gem_ghost_task'
+
+    Rake::GemGhostTask.new('hello_world')
+
+== Copyright
+
+Copyright (c) 2010 Boba Fat. See LICENSE.txt for
+further details.
