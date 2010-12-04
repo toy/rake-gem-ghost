@@ -6,7 +6,9 @@ Help gem developers to test created gems — creates symlink from installed gem 
 
     require 'rake/gem_ghost_task'
 
-    Rake::GemGhostTask.new('hello_world')
+    Rake::GemGhostTask.new # uses direcory name as gem name
+
+    Rake::GemGhostTask.new('rake-gem-ghost')
 
 == Copyright
 
