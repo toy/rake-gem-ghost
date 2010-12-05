@@ -1,3 +1,6 @@
+require 'rake/tasklib'
+require 'pathname'
+
 module Rake
   class GemGhostTask < TaskLib
     attr_reader :name
