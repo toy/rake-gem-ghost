@@ -12,7 +12,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Help gem developers to test created gems — creates symlink from installed gem to current folder.}
   gem.homepage = "http://github.com/toy/#{name}"
   gem.license = 'MIT'
-  gem.authors = ['Boba Fat']
+  gem.authors = ['Ivan Kuchin']
   gem.add_runtime_dependency 'rake'
   gem.add_development_dependency 'jeweler', '~> 1.5.1'
 end
