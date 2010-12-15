@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'rake'
 require 'jeweler'
 $: << File.join(File.dirname(__FILE__), 'lib')
