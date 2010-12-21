@@ -5,17 +5,18 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rake-gem-ghost}
-  s.version = "0.0.1.3"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ivan Kuchin"]
-  s.date = %q{2010-12-15}
+  s.date = %q{2010-12-22}
   s.description = %q{Help gem developers to test created gems — creates symlink from installed gem to current folder.}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.markdown"
   ]
   s.files = [
+    ".tmignore",
     "LICENSE.txt",
     "README.markdown",
     "Rakefile",
